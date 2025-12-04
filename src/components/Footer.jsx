@@ -47,7 +47,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-gray-300">
               <li className="hover:text-[red] cursor-pointer">About Us</li>
               <li className="hover:text-[red] cursor-pointer">Services</li>
-              <li className="hover:text-[red] cursor-pointer">Portfolio</li>
+              <li className="hover:text-[red] cursor-pointer">Works</li>
               <li className="hover:text-[red] cursor-pointer">Contact</li>
             </ul>
           </div>
@@ -100,7 +100,10 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
           <p>© 2025 ALUPLUS. All Rights Reserved.</p>
           <p className="mt-3 md:mt-0">
-            Designed by <span className="text-[red] font-semibold">JISHNU</span>
+            Designed by{" "}
+            <span className="text-[red] font-semibold">
+              <a href="https://jishnum.in">JISHNU M</a>
+            </span>
           </p>
         </div>
       </div>
