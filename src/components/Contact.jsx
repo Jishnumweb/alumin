@@ -91,15 +91,16 @@ const ContactSection = () => {
             <div className="space-y-2 pt-4">
               <p className="flex items-center gap-2">
                 <Phone size={18} className="text-red-600" />
-                +91 96450 87999
+                +91 7034751431 | 8075255573
               </p>
               <p className="flex items-center gap-2">
                 <Mail size={18} className="text-red-600" />
-                aluplusaluminium@gmail.com
+                aluplus7575@gmail.com
               </p>
               <p className="flex items-center gap-2">
                 <MapPin size={18} className="text-red-600" />
-                Thodiyoor, Kollam, Kerala
+                Aluplus Aluminium, Near Sree Budha School, Sree Budha Road
+                Veluthamanal, Thodiyur, Kollam-690523, Kerala
               </p>
             </div>
           </form>
@@ -108,7 +109,7 @@ const ContactSection = () => {
 
       {/* FLOATING WHATSAPP BUTTON */}
       <a
-        href="https://wa.me/919645087999?text=Hello%20I%20need%20an%20enquiry"
+        href="https://wa.me/918075255573?text=Hello%20I%20need%20an%20enquiry"
         target="_blank"
         className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-xl hover:scale-110 transition-all"
       >
