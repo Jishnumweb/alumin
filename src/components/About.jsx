@@ -9,8 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 const BauenPortfolio = () => {
   const aboutRef = useRef(null);
-  const servicesRef = useRef(null);
-  const imagesRef = useRef([]);
 
   useEffect(() => {
     // Fade up for About + Services Titles & Text
@@ -87,9 +85,6 @@ const BauenPortfolio = () => {
       </section>
 
       <hr className="w-11/12 mx-auto border-gray-600 my-10" />
-
-      {/* --- Section 2: OUR PROJECTS --- */}
-      <Services />
     </div>
   );
 };
